@@ -23,24 +23,32 @@ puts "Here we go!"
 puts ' '
 
 q_array = ['The unicorn is the national animal of Scotland.','Hippo milk is pink.', 'Betty White is older than sliced bread.', 'Cookie Monster’s real name is Larry.', 'Florida is the closest U.S. state to Africa.']
-
-q_array.each do |question|
-
-puts question
-end
+a_array = ['T', 'T', 'T', 'F', 'F']
+score = 0
 
 #Ask a question 
 #Get answer
-a_array = ['T', 'T', 'T', 'F', 'F']
-
-a_array.each do |answer|
-
-puts answer 
-	end
-
 #Score answer 
 #Repeat 5 times
 #Give total score 
+
+puts 'Question 1'
+puts q_array[0]
+response = gets.chomp
+
+
+puts 'Question 2'
+puts q_array[1]
+response = gets.chomp
+
+
+
+
+
+
+
+
+
 
 
 # List of questions 
