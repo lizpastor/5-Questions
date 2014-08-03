@@ -12,9 +12,10 @@
 #Solution 
 
 #Game Welcome 
+puts " "
 puts "Hello and welcome to the game True or False."
-puts "I am going to give you a statment 
-and you tell me if that statment is 
+puts "I am going to give you a statement 
+and you tell me if that statement is 
 T for True or 
 F for False."
 
@@ -36,16 +37,58 @@ puts 'Question 1'
 puts q_array[0]
 response = gets.chomp
 
+if response == a_array[0]
+	score = score + 1
+
+end
+puts " "
 
 puts 'Question 2'
 puts q_array[1]
 response = gets.chomp
 
+if response == a_array[1]
+	score = score + 1
+
+end
+puts " "
+
+puts 'Question 3'
+puts q_array[2]
+response = gets.chomp
+
+if response == a_array[2]
+	score = score + 1
+
+end
+puts " "
+
+puts 'Question 4'
+puts q_array[3]
+response = gets.chomp
+
+if response == a_array[3]
+	score = score + 1
+
+end
+puts " "
 
 
+puts 'Question 5'
+puts q_array[4]
+response = gets.chomp
 
+if response == a_array[4]
+	score = score + 1
 
+end
+puts " "
 
+puts "Well, well, well.  Now that was fun."
+
+puts "Here is your score:" 
+puts score 
+puts "out of 5"
 
 
 
